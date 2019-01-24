@@ -1,12 +1,26 @@
-package common.main;
 
-import common.helpers.ListHelper;
+#https://github.com/tarasdidyk/GeometricShapespackage common.main;
 
-public class Test {
 
-    public static void main(String[] args) {
-        ListHelper listHelper = new ListHelper();
-        listHelper.listShapes();
+public abstract class Shape {
+
+    private double area;
+    private String color;
+
+
+    public void shapeDraw() {
+
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getArea() {
+        return area;
+    }
+
+    public void shapeAllInformation() {
 
     }
 
