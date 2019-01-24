@@ -6,14 +6,6 @@ import common.main.Shape;
 
 public class Square extends Shape {
 
-    private double side;
-    private String color;
-    private double area;
-    private double a;
-    private double b;
-    private double c;
-    private double d;
-    private double k;
 
 
     public Square() {
@@ -23,7 +15,7 @@ public class Square extends Shape {
         getColor();
 
     }
-									
+
     public double getSide(){
         side = RandomNumberHelper.randomSizeSide();
         return side;
