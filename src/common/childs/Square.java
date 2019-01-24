@@ -1,33 +1,6 @@
 package common.childs;
 
-import common.helpers.ColorHelper;
-import common.helpers.RandomNumberHelper;
-import common.main.Shape;
-
-public class Square extends Shape {
-
-
-
-    public Square() {
-        getSide();
-        shapeDraw();
-        getArea();
-        getColor();
-
-    }
-
-    public double getSide(){
-        side = RandomNumberHelper.randomSizeSide();
-        return side;
-    }
-
-    public void shapeDraw() {
-        if(side==0){
-            getSide();
-        }
-        a = side;
-        b = side;
-        c = side;
+im
         d = side;
     }
 
