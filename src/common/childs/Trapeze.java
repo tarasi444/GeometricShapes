@@ -6,12 +6,6 @@ import common.main.Shape;
 
 public class Trapeze extends Shape {
 
-    private double area;
-    private String color;
-    private double baseTopLength;
-    private double baseBottomLength;
-    private double height;
-      private double height1;
         private double height2;
 
 
