@@ -12,14 +12,6 @@ import java.util.List;
 public class ListHelper {
 
 
-    public void listShapes() {
-        List<Shape> shapes = new ArrayList<>();
-        for (int i = 0; i < RandomNumberHelper.randomSizeSide(); i++) {
-            shapes.add(randomShape());
-                shapes.add(randomShape());
-
-        }
-        for (Shape sh: shapes){
             sh.shapeAllInformation();
         }
 
