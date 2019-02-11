@@ -11,9 +11,7 @@ public abstract class Shape {
 
     }
 
-    public String getColor() {
-        return color;
-    }
+   
 
     public double getArea() {
         return area;
